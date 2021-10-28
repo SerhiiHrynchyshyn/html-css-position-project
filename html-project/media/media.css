@@ -1,33 +1,33 @@
-@media screen and (max-width: 375px){
-    header{
+@media screen and (max-width: 375px) {
+    header {
         height: 800px;
     }
+
     .header__top {
         width: 100%;
         padding-top: 20px;
         margin-bottom: 252px;
     }
 
-    .header__menu{
+    .header__menu {
         display: none;
     }
 
-    .header__logo img{
+    .header__logo img {
         width: 45px;
     }
 
-    .header__hamburger{
+    .header__hamburger {
         display: flex;
         flex-direction: column;
         row-gap: 4px;
     }
 
-    .header__hamburger span{
+    .header__hamburger span {
         width: 30px;
         height: 3px;
         background: #FF7400;
         border-radius: 50px;
-
     }
 
     .main__container h2 {
@@ -41,35 +41,36 @@
     }
 
     .main__container p::before,
-    .main__container p::after{
+    .main__container p::after {
         display: none;
     }
 
-    .main__container p{
+    .main__container p {
         margin-bottom: 27px;
     }
 
-    .section__header{
+    .section__header {
         flex-direction: column;
         align-items: center;
         row-gap: 14px;
     }
 
-    .section__box{
+    .section__box {
         width: 290px;
         height: 276px;
     }
 
-    .section__box img{
+    .section__box img {
         margin-top: 34px;
         width: 89px;
         height: 89px;
     }
 
-    .section__box p{
+    .section__box p {
         font-size: 22px;
         margin-bottom: 6px;
     }
+
     .section__box .section__text {
         font-size: 22px;
     }

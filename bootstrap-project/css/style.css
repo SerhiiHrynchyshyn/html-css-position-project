@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Tinos', serif;
+}
+
+ol, ul, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*..............................................................................*/
+
+.header {
+    height: 800px;
+    background: url("../../html-project/img/HEADER.jpg") no-repeat center / cover;
+}
+
+.header__top {
+    padding-top: 49px;
+    color: white;
+    margin-bottom: 203px;
+}
+
+.header__menu {
+    height: 68px;
+}
+
+.nav__menu::after {
+    content: "";
+    display: block;
+    border: 1px solid white;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.nav__menu ul {
+    column-gap: 23px;
+}
+
+.nav__menu ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+/*..............................................................................*/
+.menu__contacts {
+    column-gap: 45px;
+}
+
+.contacts__phone {
+    width: 154px;
+}
+
+.header__btn {
+    padding: 14px 18px;
+    text-transform: uppercase;
+    background: #FF7400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*..............................................................................*/
+.header__main {
+    height: 300px;
+    color: #D67E35;
+}
+
+
+.main__container {
+    max-width: 565px;
+}
+
+.main__container h2 {
+    font-size: 50px;
+}
+
+.main__container h1 {
+    font-size: 80px;
+    margin-bottom: 12px;
+}
+
+.header__main p {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 21px;
+}
+
+.main__container p::before,
+.main__container p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: white;
+    margin: 0 8px;
+}
+
+.bottom__btn {
+    padding: 14px 27px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bottom__btn:hover {
+    background: #D67E35;
+}
+
+/*..............................................................................*/
+
+
+.section__one {
+    position: relative;
+}
+
+.section__header {
+    position: absolute;
+    top: -110px;
+}
+
+.section__box {
+    width: 349px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section__box > img {
+    width: 87px;
+    height: 87px;
+    margin-top: 48px;
+}
+
+.section__box p {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.section__box p > span {
+    color: #BC9060;
+}
+
+.section__box .section__text {
+    line-height: 30px;
+    color: #656363;
+}
